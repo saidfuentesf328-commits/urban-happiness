@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Componentes</title>
+</head>
+<body>
+    <!-- Encabezado -->
+     <header>
+<div class="logo">
+           <i class="fa-solid fa-wifi"></i>
+    <span> Más allá del cable</span>
+</div>
+<nav>
+    <a href="portada.html"> Inicio</a>
+    <a href="pag1.html"> ¿ Que es ?</a>
+   <a href="pag2.html"> Estandar 802.11</a>
+   <a href="pag3.html"> Seguridad y Ventajas</a>
+   <a href="pag4.html"> Componentes</a> 
+   <a href="pag5.html"> Funcionamiento</a>
+</nav>
+     </header>
+
+     <main class="contenedor-principal">
+    
+      <section class="bloque">
+      <h2> Componentes de la redes estándares Wi-Fi </h2>
+      <p>Los componentes de una red inalámbrica estándar IEEE 802.11 (Wi-Fi) son los elementos que permiten que los dispositivos se conecten y transmitan datos mediante ondas de radio.</p>
+    </section>
+
+    <section class="bloque">
+      <h2>Componentes y Arquitectura de la Red 802.11</h2>
+      <ul class="lista-tarjetas">
+        <li>
+          <strong>Estaciones:</strong> Computadoras o dispositivos con interfaz de red.
+        </li>
+        <li>
+          <strong>Medio:</strong> Se pueden definir dos, la radiofrecuencia y los infrarrojos.
+        </li>
+        <li>
+          <strong>Punto de acceso (AP):</strong> Tiene las funciones de un puente (conecta dos redes con niveles de enlace parecidos o distintos), y realiza por tanto las conversiones de trama pertinente.
+        </li>
+        <li>
+          <strong>Sistema de distribución:</strong> Importantes ya que proporcionan movilidad entre AP, para tramas entre distintos puntos de acceso o con los terminales, ayudan ya que es el mecanismo que controla dónde está la estación para enviarle las tramas.
+        </li>
+        <li>
+          <strong>Conjunto de Servicio Básico (BSS):</strong> Grupo de estaciones que se intercomunican entre ellas. Se definen dos tipos:
+          <ul style="margin-top: 15px; padding-left: 20px; list-style-type: disc;">
+            <li><strong>Independientes:</strong> Cuando las estaciones se intercomunican directamente.</li>
+            <li><strong>Infraestructura:</strong> Cuando se comunican todas a través de un punto de acceso.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Conjunto de Servicio Extendido (ESS):</strong> Es la unión de varios BSS.
+        </li>
+        <li>
+          <strong>Área de servicio básico:</strong> Importante en las redes 802.11, ya que lo que indica es la capacidad de cambiar la ubicación de los terminales, variando la BSS. La transición será correcta si se realiza dentro del mismo ESS, en otro caso no se podrá realizar.
+        </li>
+        <li>
+          <strong>Límites de la red:</strong> Los límites de las redes 802.11 son difusos ya que pueden solaparse diferentes BSS.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+  <div class="contenedor-imagen-arquitectura">
+    <img src="https://community.cisco.com/t5/image/serverpage/image-id/24966i68FD58A7E29E7876?v=v2" alt="Esquema de arquitectura de red 802.11" class="imagen-adaptable">
+  </div>
+</section>
+
+<section class="bloque conclusion-tarjeta">
+  <h2>Conclusión</h2>
+  <p class="conclusion-texto">
+    Los componentes de las redes Wi-Fi IEEE 802.11 permiten que los dispositivos se conecten, transmitan información y se desplacen dentro de una red inalámbrica. Elementos como las estaciones, puntos de acceso, BSS, ESS y sistemas de distribución trabajan conjuntamente para proporcionar una conexión organizada y eficiente.
+  </p>
+  <div class="conclusion-resumen-caja">
+    <p>
+      En conjunto, esta arquitectura permite crear redes flexibles, escalables y con movilidad, adaptándose a diferentes entornos como hogares, instituciones educativas, empresas e industrias.
+    </p>
+  </div>
+</section>
+
+<footer class="pie-pagina">
+  <div class="pie-contenido">
+    
+    <div class="pie-columna">
+      <div class="pie-brand-box">
+        <div class="pie-logo">
+          <i class="fa-solid fa-wifi icono-wifi-fa"></i>
+          <strong>Más allá del cable</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="pie-columna">
+      <i class="fa-solid fa-user icono-fa"></i>
+      <div class="pie-texto-box">
+        <strong>Said Andres Fuentes Fuentes</strong>
+        <span>Estudiante</span>
+      </div>
+    </div>
+
+    <div class="pie-columna">
+      <i class="fa-regular fa-copyright icono-fa"></i>
+      <div class="pie-texto-box">
+        <strong>© 2026 - Derechos reservados</strong>
+        <span>Todos los derechos reservados</span>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+     </main>
+</body>
+</html>

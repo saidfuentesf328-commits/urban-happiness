@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Encabezado -->
+     <header>
+<div class="logo">
+           <i class="fa-solid fa-wifi"></i>
+    <span> Más allá del cable</span>
+</div>
+<nav>
+    <a href="portada.html"> Inicio</a>
+    <a href="pag1.html"> ¿ Que es ?</a>
+   <a href="pag2.html"> Estandar 802.11</a>
+   <a href="pag3.html"> Seguridad y Ventajas</a>
+   <a href="pag4.html"> Componentes</a> 
+   <a href="pag5.html"> Funcionamiento</a>
+</nav>
+     </header>
+
+     <main class="contenedor-principal">
+    
+    <section class="bloque">
+      <h2>¿Qué son los estándares Wi-Fi?</h2>
+      <p>Los estándares Wi-Fi los define el IEEE (Instituto de Ingenieros Eléctricos y Electrónicos) en el protocolo 802.11. Estos estándares dictan cómo los dispositivos inalámbricos se comunican y se conectan a Internet. La evolución de estos estándares ha llevado a una mejora significativa en velocidad, alcance y fiabilidad.</p>
+    </section>
+
+    <section class="grid-dos-columnas">
+      <div class="tarjeta-info">
+        <h3>¿Por qué es importante conocerlos?</h3>
+        <ul>
+          <li><strong>Optimización del rendimiento:</strong> Saber qué estándar admiten tus dispositivos te ayuda a elegir el router adecuado.</li>
+          <li><strong>Preparación para el futuro:</strong> Los nuevos estándares como Wi-Fi 6 y Wi-Fi 7 ofrecen mayor eficiencia e inversión a largo plazo.</li>
+          <li><strong>Solución de problemas:</strong> Ayuda a diagnosticar con facilidad fallas de conectividad.</li>
+        </ul>
+      </div>
+
+      <div class="tarjeta-info">
+        <h3>Beneficios de los Estándares</h3>
+        <ul>
+          <li><strong>Velocidad:</strong> Velocidades de transferencia superiores para streaming y gaming.</li>
+          <li><strong>Alcance:</strong> Tecnologías como MIMO mejoran la cobertura y la señal.</li>
+          <li><strong>Capacidad del dispositivo:</strong> Permiten gestionar múltiples dispositivos simultáneamente sin reducir rendimiento.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bloque">
+      <h2>Características Principales de las Redes Inalámbricas y el Estándar 802.11</h2>
+      <ul class="lista-tarjetas">
+        <li>
+          <strong>Movilidad y flexibilidad:</strong> Permiten el libre desplazamiento de los usuarios sin perder la conexión a la red dentro del área de cobertura.
+        </li>
+        <li>
+          <strong>Transmisión no guiada:</strong> Utilizan ondas electromagnéticas (radiofrecuencia o infrarrojos) a través del aire para enviar datos, eliminando el cableado físico entre terminales.
+        </li>
+        <li>
+          <strong>Control de acceso al medio (CSMA/CA):</strong> El estándar utiliza *Carrier Sense Multiple Access with Collision Avoidance* para gestionar el tráfico de datos, escuchando el canal antes de transmitir y evitando colisiones de paquetes en el aire.
+        </li>
+        <li>
+          <strong>Interoperabilidad universal:</strong> Certificada por la Wi-Fi Alliance, garantiza que los dispositivos de diferentes fabricantes funcionen correctamente entre sí bajo la norma IEEE 802.11.
+        </li>
+        <li>
+          <strong>Escalabilidad sencilla:</strong> Es fácil expandir la red agregando nuevos Puntos de Acceso (AP) sin necesidad de hacer modificaciones estructurales o tirar nuevos cables.
+        </li>
+        <li>
+          <strong>Operación en bandas no licenciadas:</strong> Funciona en bandas de frecuencia de uso libre (2,4 GHz, 5 GHz y 6 GHz) divididas en múltiples canales para reducir interferencias.
+        </li>
+        <li>
+          <strong>Mecanismos de seguridad inalámbrica:</strong> Implementa cifrado dinámico (como WPA2 y WPA3) para proteger la confidencialidad de la información y restringir el acceso no autorizado.
+        </li>
+        <li>
+          <strong>Topologías dinámicas:</strong> Soporta modos de red centralizados mediante infraestructura (con AP) y redes directas de punto a punto (modo Ad-hoc / BSS independiente).
+        </li>
+      </ul>
+    </section>
+    
+    <section class="bloque">
+      <h2>Conceptos sobre el Ancho de Canal Wi-Fi</h2>
+      <div class="caja-explicacion">
+        <h3>¿Qué es el ancho de canal Wi-Fi?</h3>
+        <p>Se refiere al rango de frecuencia que ocupa un canal Wi-Fi. Es parecido al número de carriles en una autopista; los canales más anchos permiten que más datos pasen a la vez (20 MHz, 40 MHz, 80 MHz y 160 MHz).</p>
+      </div>
+
+      <div class="caja-explicacion">
+        <h3>¿Cómo afecta al rendimiento?</h3>
+        <p>Un ancho de canal más amplio aumenta el rendimiento de los datos, pero también puede provocar mayores interferencias en entornos con mucho tráfico, degradando la conexión.</p>
+      </div>
+
+      <div class="anchos-comunes">
+        <h3>Anchos de canal más comunes:</h3>
+        <div class="grid-anchos">
+          <div class="tarjeta-ancho"><strong>20 MHz</strong><p>Estándar para dispositivos antiguos e ideal para minimizar interferencias.</p></div>
+          <div class="tarjeta-ancho"><strong>40 MHz</strong><p>Mejor rendimiento que 20 MHz, común en redes de 5 GHz.</p></div>
+          <div class="tarjeta-ancho"><strong>80 MHz</strong><p>Alto rendimiento, requiere menos interferencias y estar cerca al router.</p></div>
+          <div class="tarjeta-ancho"><strong>160 MHz</strong><p>Apto para aplicaciones exigentes, propenso a interferencias en zonas muy concurridas.</p></div>
+        </div>
+      </div>
+    </section>
+  
+<section class="bloque conclusion-tarjeta">
+  <h2>Conclusión</h2>
+  <p class="conclusion-texto">
+    Los estándares Wi-Fi IEEE 802.11 son esenciales en la industria actual porque permiten una conexión rápida, flexible y segura. Su evolución mejora la velocidad, cobertura y capacidad, facilitando el uso de IoT, automatización y dispositivos inteligentes.
+  </p>
+  <div class="conclusion-resumen-caja">
+    <p>
+     el Wi-Fi 802.11 contribuye a crear industrias más conectadas, eficientes y preparadas para las nuevas tecnologías.
+    </p>
+  </div>
+</section>
+
+<!--FOOTER-->
+
+<footer class="pie-pagina">
+  <div class="pie-contenido">
+    
+    <div class="pie-columna">
+      <div class="pie-brand-box">
+        <div class="pie-logo">
+          <i class="fa-solid fa-wifi icono-wifi-fa"></i>
+          <strong>Más allá del cable</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="pie-columna">
+      <i class="fa-solid fa-user icono-fa"></i>
+      <div class="pie-texto-box">
+        <strong>Said Andres Fuentes Fuentes</strong>
+        <span>Estudiante</span>
+      </div>
+    </div>
+    <div class="pie-columna">
+      <i class="fa-regular fa-copyright icono-fa"></i>
+      <div class="pie-texto-box">
+        <strong>© 2026 - Derechos reservados</strong>
+        <span>Todos los derechos reservados</span>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+</mami>
+</body>
+</html>

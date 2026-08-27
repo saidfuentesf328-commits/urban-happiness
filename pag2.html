@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>pag2</title>
+</head>
+<body>
+    <!-- Encabezado -->
+     <header>
+<div class="logo">
+           <i class="fa-solid fa-wifi"></i>
+    <span> Más allá del cable</span>
+</div>
+<nav>
+    <a href="portada.html"> Inicio</a>
+    <a href="pag1.html"> ¿ Que es ?</a>
+   <a href="pag2.html"> Estandar 802.11</a>
+   <a href="pag3.html"> Seguridad y Ventajas</a>
+   <a href="pag4.html"> Componentes</a> 
+   <a href="pag5.html"> Funcionamiento</a>
+</nav>
+     </header>
+     <main class="contenedor-principal">
+
+<!-- =====================================================
+     Qué es el estándar 802.11 
+===================================================== -->
+<section id="introdu" class="introdu">
+  <div class="tex-introduccion">
+    <h2>ESTÁNDARES 802.11</h2>
+    
+    <p>
+      Las redes inalámbricas permiten la transmisión de datos sin necesidad de cables físicos, utilizando ondas de radiofrecuencia. 
+      Para garantizar que los equipos de cualquier fabricante puedan comunicarse entre sí de forma eficiente y segura, el Instituto de Ingenieros Eléctricos y Electrónicos (IEEE) creó la familia de estándares <strong>IEEE 802.11</strong>, conocida popularmente como Wi-Fi.
+    </p>
+
+     <section class="tar">
+    <div class="bloque-generaciones">
+      <h3>Detalle de las Generaciones Wi-Fi</h3>
+      <div class="grid-generaciones">
+        
+        <div class="tarjeta-estandar">
+          <h4>Wi-Fi 1 & 2 (802.11b / 802.11a) — 1999</h4>
+          <p>Pioneros en la conectividad sin cables. 802.11b alcanzaba 11 Mbps en 2.4 GHz, mientras que 802.11a lograba 54 Mbps en la banda de 5 GHz.</p>
+        </div>
+
+        <div class="tarjeta-estandar">
+          <h4>Wi-Fi 3 (802.11g) — 2003</h4>
+          <p>Estandarizó la velocidad de 54 Mbps en la frecuencia de 2.4 GHz, impulsando la adopción masiva del Wi-Fi en hogares y empresas.</p>
+        </div>
+
+        <div class="tarjeta-estandar">
+          <h4>Wi-Fi 4 (802.11n) — 2009</h4>
+          <p>Introdujo la tecnología MIMO (múltiples antenas) y el uso de doble banda (2.4 GHz y 5 GHz), alcanzando hasta 600 Mbps.</p>
+        </div>
+
+        <div class="tarjeta-estandar">
+          <h4>Wi-Fi 5 (802.11ac) — 2013</h4>
+          <p>Optimizado para la banda de 5 GHz, superó la barrera del gigabit (hasta 6.9 Gbps), permitiendo el streaming de video en alta definición.</p>
+        </div>
+
+        <div class="tarjeta-estandar">
+          <h4>Wi-Fi 6 (802.11ax) — 2019</h4>
+          <p>Incorporó la tecnología OFDMA para mejorar significativamente el rendimiento y reducir la latencia en entornos altamente concurridos.</p>
+        </div>
+
+        <div class="tarjeta-estandar">
+          <h4>Wi-Fi 6E (802.11ax extendido) — 2021</h4>
+          <p>Añadió la nueva banda limpia de 6 GHz, eliminando la congestión de datos y habilitando canales más anchos y estables.</p>
+        </div>
+
+        <div class="tarjeta-estandar">
+          <h4>Wi-Fi 7 (802.11be) — 2024+</h4>
+          <p>Diseñado para transmisiones ultra fluidas de hasta 46 Gbps, soporta transmisión en 8K, realidad aumentada y automatización industrial.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bloque2">
+  <h2>Gráfico comparativo de estándares Wi-Fi</h2>
+  <div class="contenedor-tabla">
+    <table class="tabla-comparativa">
+      <thead>
+        <tr>
+          <th>Estándar Wi-Fi</th>
+          <th>Bandas de frecuencia</th>
+          <th>Velocidad máx. (teórica)</th>
+          <th>Ancho de canal</th>
+          <th>MIMO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Wi-Fi 1 (802.11b)</td>
+          <td>2,4 GHz</td> <td>11 Mb/s</td> <td>20 MHz</td> <td>No</td></tr>
+        <tr><td>Wi-Fi 2 (802.11a)</td> <td>5 GHz</td><td>54 Mb/s</td> <td>20 MHz</td><td>No</td></tr>
+        <tr><td>Wi-Fi 3 (802.11g)</td> <td>2,4 GHz</td><td>54 Mb/s</td> <td>20 MHz</td><td>No</td></tr>
+        <tr><td>Wi-Fi 4 (802.11n)</td> <td>2,4 GHz, 5 GHz</td><td>600 Mb/s</td> <td>20, 40 MHz</td><td>Usuario único (SU-MIMO)</td></tr>
+        <tr><td>Wi-Fi 5 (802.11ac)</td> <td>5 GHz</td><td>3,5 Gb/s</td><td>20, 40, 80, 160 MHz</td><td>Multiusuario (MU-MIMO)</td></tr>
+        <tr><td>Wi-Fi 6 (802.11ax)</td> <td>2,4 GHz, 5 GHz</td><td>9,6 Gbps</td><td>20, 40, 80, 160 MHz</td><td>Multiusuario (MU-MIMO)</td></tr>
+        <tr><td>Wi-Fi 7 (802.11be)</td> <td>2,4 GHz, 5 GHz, 6 GHz</td><td>46 Gbps</td><td>20, 40, 80, 160 MHz</td><td>Multiusuario (MU-MIMO)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!---============================================
+     LÍNEA DE TIEMPO - ESTÁNDARES WI-FI 802.11
+    ===================================================== -->
+<section class="seccion-timeline" id="estandares">
+
+    <div class="contenedor">
+        <!-- TÍTULO -->
+        <div class="titulo-seccion">
+            <span class="linea-titulo"></span>
+
+            <h2>
+                EVOLUCIÓN DE LOS ESTÁNDARES 802.11
+            </h2>
+            <span class="linea-titulo"></span>
+        </div>
+        <p class="subtitulo-timeline">
+            Más velocidad, más cobertura, más dispositivos conectados.
+        </p>
+
+        <div class="timeline">
+
+            <!-- 802.11b -->
+            <div class="evento">
+                <div class="fecha">1999</div>
+                <div class="punto"></div>
+                <div class="contenido-evento">
+                    <div class="icono-wifi">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <h3>802.11b</h3>
+                    <h4>Wi-Fi 1</h4>
+                    <p>Hasta 11 Mbps</p>
+                    <span>2.4 GHz</span>
+                </div>
+            </div>
+
+            <!-- 802.11g -->
+            <div class="evento">
+                <div class="fecha">2003</div>
+                <div class="punto"></div>
+                <div class="contenido-evento">
+                    <div class="icono-wifi">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <h3>802.11g</h3>
+                    <h4>Wi-Fi 3</h4>
+                    <p>Hasta 54 Mbps</p>
+                    <span>2.4 GHz</span>
+                </div>
+            </div>
+
+            <!-- 802.11n -->
+            <div class="evento">
+                <div class="fecha">2009</div>
+                <div class="punto"></div>
+                <div class="contenido-evento">
+                    <div class="icono-wifi">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <h3>802.11n</h3>
+                    <h4>Wi-Fi 4</h4>
+                    <p>Hasta 600 Mbps</p>
+                    <span>2.4 / 5 GHz</span>
+                </div>
+            </div>
+
+            <!-- 802.11ac -->
+            <div class="evento">
+                <div class="fecha">2013</div>
+                <div class="punto"></div>
+                <div class="contenido-evento">
+                    <div class="icono-wifi">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <h3>802.11ac</h3>
+                    <h4>Wi-Fi 5</h4>
+                    <p>Hasta 6.9 Gbps</p>
+                    <span>5 GHz</span>
+                </div>
+            </div>
+
+            <!-- 802.11ax -->
+            <div class="evento">
+                <div class="fecha">2019</div>
+                <div class="punto"></div>
+                <div class="contenido-evento">
+                    <div class="icono-wifi">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <h3>802.11ax</h3>
+                    <h4>Wi-Fi 6</h4>
+                    <p>Hasta 9.6 Gbps</p>
+                    <span>2.4 / 5 GHz</span>
+                </div>
+            </div>
+
+            <!-- Wi-Fi 6E -->
+            <div class="evento">
+                <div class="fecha">2021</div>
+                <div class="punto"></div>
+                <div class="contenido-evento">
+                    <div class="icono-wifi">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <h3>802.11ax</h3>
+                    <h4>Wi-Fi 6E</h4>
+                    <p>Hasta 9.6 Gbps</p>
+                    <span>2.4 / 5 / 6 GHz</span>
+                </div>
+            </div>
+
+            <!-- Wi-Fi 7 -->
+            <div class="evento">
+                <div class="fecha">2024+</div>
+                <div class="punto"></div>
+                <div class="contenido-evento">
+                    <div class="icono-wifi">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <h3>802.11be</h3>
+                    <h4>Wi-Fi 7</h4>
+                    <p>Hasta 46 Gbps+</p>
+                    <span>2.4 / 5 / 6 GHz</span>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="bloque conclusion-tarjeta">
+  <h2>Conclusión</h2>
+  <p class="conclusion-texto">
+    Los estándares Wi-Fi IEEE 802.11 han evolucionado desde las primeras conexiones inalámbricas hasta tecnologías capaces de ofrecer mayor velocidad, cobertura, capacidad y estabilidad. Cada generación, desde 802.11a/b hasta Wi-Fi 7, ha incorporado mejoras como MIMO, OFDMA y nuevas bandas de frecuencia, adaptándose a las necesidades actuales.
+  </p>
+  <div class="conclusion-resumen-caja">
+    <p>
+     la evolución del Wi-Fi permite tener redes más rápidas, eficientes y confiables, facilitando aplicaciones como streaming, IoT, automatización industrial, realidad aumentada y conexión de múltiples dispositivos.
+    </p>
+  </div>
+</section>
+
+<!--FOOTER-->
+
+<footer class="pie-pagina">
+  <div class="pie-contenido">
+    
+    <div class="pie-columna">
+      <div class="pie-brand-box">
+        <div class="pie-logo">
+          <i class="fa-solid fa-wifi icono-wifi-fa"></i>
+          <strong>Más allá del cable</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="pie-columna">
+      <i class="fa-solid fa-user icono-fa"></i>
+      <div class="pie-texto-box">
+        <strong>Said Andres Fuentes Fuentes</strong>
+        <span>Estudiante</span>
+      </div>
+    </div>
+
+    <div class="pie-columna">
+      <i class="fa-regular fa-copyright icono-fa"></i>
+      <div class="pie-texto-box">
+        <strong>© 2026 - Derechos reservados</strong>
+        <span>Todos los derechos reservados</span>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+     </main>
+</body>
+</html>
